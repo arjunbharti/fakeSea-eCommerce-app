@@ -1,0 +1,128 @@
+:root{
+    --primary-color: #60A5FA;
+    --primary-hover: #3B82F6;
+    --secondary-color: #BFDBFE;
+    --secondary-hover: #93C5FD;
+    --background: rgb(237, 242, 252);
+    --danger: lightcoral;
+    --warning: yellow;
+    --success: lightgreen;
+    --light: white;
+    --dark: black;
+}
+
+/* width */
+.w-1{
+    width: 1rem;
+}
+
+.w-3{
+    width: 3rem;
+}
+
+.w-5{
+    width: 5rem;
+}
+
+.w-10{
+  width: 10rem;      
+}
+
+.w-20{
+    width: 20rem;
+}
+
+.w-30{
+    width: 30rem;
+}
+
+.w-40{
+    width: 40rem;
+}
+
+.w-50{
+    width: 50rem;
+}
+
+.w-60{
+    width: 60rem;
+}
+
+.w-70{
+    width: 70rem;
+}
+
+.w-80{
+    width: 80rem;
+}
+
+.w-90{
+    width: 90rem;
+}
+
+.w-100{
+    width: 100rem;
+}
+
+/* height */
+.h-1{
+    height: 1rem;
+}
+
+.h-2{
+    height: 2rem;
+}
+
+.h-3{
+    height: 3rem;
+}
+
+.h-5{
+    height: 5rem;
+}
+
+.h-6{
+    height: 5rem;
+}
+
+.h-7{
+    height: 5rem;
+}
+
+.h-8{
+    height: 5rem;
+}
+
+.h-9{
+    height: 5rem;
+}
+
+.h-10{
+    height: 10rem;
+}
+
+.h-20{
+    height: 20rem;
+}
+
+.h-30{
+    height: 30rem;
+}
+
+.h-40{
+    height: 40rem;
+}
+
+.h-50{
+    height: 50rem;
+}
+
+/* flex */
+.flex-row{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}

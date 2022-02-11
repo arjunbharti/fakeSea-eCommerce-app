@@ -1,0 +1,25 @@
+/* external imports */
+@import url('https://uivibe.netlify.app/styles/main.css');
+
+/* component imports */
+@import "./reset.css";
+@import "./utils.css";
+
+/* project initials */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--default-font-size);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
