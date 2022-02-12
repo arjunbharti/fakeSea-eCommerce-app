@@ -1,0 +1,32 @@
+.product-filters{
+    width: 20rem;
+    background-color: var(--background);
+    height: 100vh;
+}
+
+.filters-section{
+    padding-top: 1rem;
+    
+}
+
+.filters-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    padding-top: 1rem;
+}
+
+.products-section{
+    padding: 1rem 0 0 1.5rem;
+    width: 100vw;
+}
+
+.filter-type{
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+
+.filter-subtype{
+    padding: 0.5rem;
+}
