@@ -1,0 +1,50 @@
+.wishlist-container{
+    display: flex;
+    padding: 2.5rem;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.wishlist-title{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.product-card{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 2px solid var(--background);
+}
+
+.wishlist-product-img{
+    height: 12.5rem;
+    width: 12.5rem;
+}
+
+.product-name{
+    font-weight: 600;
+}
+
+.product-author{
+    margin-bottom: 1rem;
+}
+
+.product-price{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.move-to-cart{
+    margin-top: 0.5rem;
+}
+
+.move-to-cart-action{
+    color: var(--light);
+    background-color: var(--primary-color);
+    padding: 0.75rem;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+}
