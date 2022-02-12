@@ -10,8 +10,8 @@
 .login-card{
     background-color: white;
     padding: 4rem;
-    height: 500px;
-    width: 400px;
+    height: 31.25rem;
+    width: 25rem;
     border-radius: 4px;
 }
 
@@ -56,7 +56,7 @@
 .signup-card{
     background-color: white;
     padding: 4rem;
-    height: 550px;
-    width: 400px;
+    height: 34.375rem;
+    width: 25rem;
     border-radius: 4px;
 }
