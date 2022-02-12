@@ -1,0 +1,9 @@
+.products-container{
+    padding-top: 1rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.product-card:hover{
+    box-shadow: 0px 0px 4px 4px var(--secondary-color);
+}
