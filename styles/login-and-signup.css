@@ -1,0 +1,62 @@
+.login-page{
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-card{
+    background-color: white;
+    padding: 4rem;
+    height: 500px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+.login-heading{
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input-class{
+    padding: 0.75rem 2rem;
+}
+
+.login-input-field{
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-login{
+    text-align: center;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--light);
+    border-radius: 4px;
+    margin-bottom: 1.25rem;
+}
+
+.forgot-password{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    color: var(--dark-v2);
+}
+
+.signup-btn{
+    text-align: center;
+    text-decoration: underline;
+    color: var(--dark-v2);
+}
+
+.signup-card{
+    background-color: white;
+    padding: 4rem;
+    height: 550px;
+    width: 400px;
+    border-radius: 4px;
+}
