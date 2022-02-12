@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Arjun Bharti" />
+    <meta name="description" content="FakeSea is an e-commerce app. You can buy Fake NFTs (JPEG/PNG) here and show-off."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- external imports -->
+    <link rel="icon" href="../assets/icon.png" type="image/icon">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- page title -->
+    <title>FakeSea | Cart</title>
+</head>
+<body>
+    <header>
+        <div class="logo-items">
+            <img class="logo" src="../assets/icon.png" alt="fakeSea">
+            <a class="header-name" href="../index.html">FakeSea</a>    
+        </div>
+        <input class="nav-search" type="search" placeholder="Search trending NFTs here...">
+        <nav>
+            <div class="nav-action-items">
+                <a class="nav-login-action" href="../pages/login.html">Logout</a>
+                <a href="../pages/wishlist.html" class="nav-bookmark-action"><i class="far fa-heart"><span class="badge-icon">0</span></i></a>
+                <a href="../pages/cart.html" class="nav-cart-action"><i class="fa fa-shopping-cart"><span class="badge-icon">0</span></i></a>
+            </div>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <section class="products flex-row">
+        <aside class="product-filters flex-column">
+            <p class="filters-title">Apply filters</p> 
+            <div class="filters-section">
+                <div class="filter-type filter-price">
+                    Price💰 
+                    <div class="filter-subtype">
+                        <input type="radio" name="price">
+                        <label>Low to high</label>
+                    </div>
+                    <div class="filter-subtype">
+                        <input type="radio" name="price">
+                        <label>High to Low</label>
+                    </div>
+                </div>
+                <div class="filter-type filter-trend">
+                    Trend🔥
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Celebrity</label>
+                    </div>
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Technology</label>
+                    </div>
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Bollywood</label>
+                    </div>
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Art</label>
+                    </div>
+                </div>
+                <div class="filter-type filter-category">
+                    Category
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Most liked❤️</label>
+                    </div>
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Most expensive💰</label>
+                    </div>
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>To moon🚀</label>
+                    </div>
+                </div>
+                <div class="filter-type filter-chain">
+                    Blockchain
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Ethereum (ETH)</label>
+                    </div>
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Solana (SOL)</label>
+                    </div>
+                    <div class="filter-subtype">
+                        <input type="checkbox">
+                        <label>Polygon (MATIC)</label>
+                    </div>
+                </div>           
+            </div> 
+        </aside>
+        <main class="products-section">
+            Showing products
+        </main>
+    </section>
+</body>
+</html>
