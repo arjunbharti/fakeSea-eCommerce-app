@@ -1,7 +1,7 @@
 .product-filters{
     width: 20rem;
     background-color: var(--background);
-    height: 100vh;
+    height: 100%;
 }
 
 .filters-section{
