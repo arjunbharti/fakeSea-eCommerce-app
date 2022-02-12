@@ -109,7 +109,7 @@ nav{
     margin: 5px;
 }
 
-main{
+.main{
     padding: 2.5rem;
     background-color: var(--background);
 
