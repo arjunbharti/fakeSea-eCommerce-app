@@ -66,3 +66,11 @@
     display: block;
     width: 100%;
 }
+
+/* media queries for different screens */
+
+@media screen and (max-width: 1024px) {
+    .wishlist-container{
+        flex-wrap: wrap;
+    }
+}
