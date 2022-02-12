@@ -48,3 +48,21 @@
     display: block;
     width: 100%;
 }
+
+.move-to-cart-action{
+    color: var(--light);
+    background-color: var(--primary-color);
+    padding: 0.75rem;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+}
+
+.delete-from-cart-action{
+    color: var(--dark);
+    background-color: var(--secondary-color);
+    padding: 0.75rem;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+}
