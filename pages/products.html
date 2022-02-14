@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- page title -->
-    <title>FakeSea | Cart</title>
+    <title>FakeSea | Products</title>
 </head>
 <body>
     <header>
@@ -24,7 +24,7 @@
         <input class="nav-search" type="search" placeholder="Search trending NFTs here...">
         <nav>
             <div class="nav-action-items">
-                <a class="nav-login-action" href="../pages/login.html">Logout</a>
+                <a class="nav-login-action" href="../index.html">Logout</a>
                 <a href="../pages/wishlist.html" class="nav-bookmark-action"><i class="far fa-heart"><span class="badge-icon">0</span></i></a>
                 <a href="../pages/cart.html" class="nav-cart-action"><i class="fa fa-shopping-cart"><span class="badge-icon">0</span></i></a>
             </div>
@@ -38,6 +38,86 @@
     <section class="products flex-row">
         <aside class="product-filters flex-column">
             <p class="filters-title">Apply filters</p> 
+            <button id="filter-btn" class="btn btn-secondary btn-curved">Apply filters</button>
+            <div class="modal">
+                <div class="filters-sections">
+                    <div class="filter-type filter-price">
+                        Price💰 
+                        <div class="filter-subtype">
+                            <input type="radio" name="price">
+                            <label>Low to high</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="radio" name="price">
+                            <label>High to Low</label>
+                        </div>
+                    </div>
+                    <div class="filter-type filter-trend">
+                        Trend🔥
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Celebrity</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Technology</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Bollywood</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Art</label>
+                        </div>
+                    </div>
+                    <div class="filter-type filter-category">
+                        Category
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Most liked❤️</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Most expensive💰</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>To moon🚀</label>
+                        </div>
+                    </div>
+                    <div class="filter-type filter-chain">
+                        Blockchain
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Ethereum (ETH)</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Solana (SOL)</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Polygon (MATIC)</label>
+                        </div>
+                    </div>
+                    <div class="filter-type">
+                        Rating
+                        <div class="filter-subtype">
+                            1
+                            <input type="range" id="volume" name="volume"
+                               min="0" max="5">
+                            5
+                        </div>
+                    </div> 
+                              
+                </div>
+                <div class="modal-footer">  
+                    <button id="apply-filter" class="btn btn-secondary">Apply</button>
+                    <button id="clear-filter" class="btn btn-secondary">Clear</button>
+                </div>
+            </div>
+        
             <div class="filters-section">
                 <div class="filter-type filter-price">
                     Price💰 
@@ -98,12 +178,105 @@
                         <input type="checkbox">
                         <label>Polygon (MATIC)</label>
                     </div>
+                </div>
+                <div class="filter-type">
+                    Rating
+                    <div class="filter-subtype">
+                        1
+                        <input type="range" id="volume" name="volume"
+                           min="0" max="5">
+                        5
+                    </div>
                 </div>           
             </div> 
         </aside>
         <main class="products-section">
-            Showing products
+            Explore fake NFT collections
+            <div class="products-container flex-row">
+                <div class="product-card flex-column">
+                    <div>
+                        <img class="wishlist-product-img" src="../assets/bollywood-gabbar-one.png" alt="nft/img">
+                    </div>
+                    <div class="product-name text-sm">
+                        Bollywood Gabbar
+                    </div>
+                    <div class="product-author">
+                        by BollyDev
+                    </div>
+                    <div class="product-price">
+                        Rs. 450
+                    </div>
+                    <div class="move-to-cart">
+                        <a class="move-to-cart-action" href="#">Add to cart</a>
+                    </div>
+                    <div class="move-to-cart">
+                        <a class="delete-from-cart-action" href="#">Wishlist this NFT</a>
+                    </div>
+                </div>
+                <div class="product-card flex-column">
+                    <div>
+                        <img class="wishlist-product-img" src="../assets/bored-ape-two.png" alt="nft/img">
+                    </div>
+                    <div class="product-name text-sm">
+                        Bored Ape NFT
+                    </div>
+                    <div class="product-author">
+                        by Ape King
+                    </div>
+                    <div class="product-price">
+                        Rs. 700
+                    </div>
+                    <div class="move-to-cart">
+                        <a class="move-to-cart-action" href="#">Add to cart</a>
+                    </div>
+                    <div class="move-to-cart">
+                        <a class="delete-from-cart-action" href="#">Wishlist this NFT</a>
+                    </div>
+                </div>
+                <div class="product-card flex-column">
+                    <div>
+                        <img class="wishlist-product-img" src="../assets/indian-punk-two.png" alt="nft/img">
+                    </div>
+                    <div class="product-name text-sm">
+                        Indian Punk NFT
+                    </div>
+                    <div class="product-author">
+                        by HindustaniDev
+                    </div>
+                    <div class="product-price">
+                        Rs. 1299
+                    </div>
+                    <div class="move-to-cart">
+                        <a class="move-to-cart-action" href="#">Add to cart</a>
+                    </div>
+                    <div class="move-to-cart">
+                        <a class="delete-from-cart-action" href="#">Wishlist this NFT</a>
+                    </div>
+                </div>
+                <div class="product-card flex-column">
+                    <div>
+                        <img class="wishlist-product-img" src="../assets/elon-space-party-two.jpg" alt="nft/img">
+                    </div>
+                    <div class="product-name text-sm">
+                        Thug Elon #1999 NFT
+                    </div>
+                    <div class="product-author">
+                        by web3 bro
+                    </div>
+                    <div class="product-price">
+                        Rs. 899
+                    </div>
+                    <div class="move-to-cart">
+                        <a class="move-to-cart-action" href="#">Add to cart</a>
+                    </div>
+                    <div class="move-to-cart">
+                        <a class="delete-from-cart-action" href="#">Wishlist this NFT</a>
+                    </div>
+                </div>
+            </div>
         </main>
     </section>
+
+    <script src="../scripts/main.js"></script>
 </body>
 </html>

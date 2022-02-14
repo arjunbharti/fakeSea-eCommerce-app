@@ -29,13 +29,15 @@
                 <a href="./pages/cart.html" class="nav-cart-action"><i class="fa fa-shopping-cart"><span class="badge-icon">0</span></i></a>
             </div>
         </nav>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
+        <span class="open-burger">&#9776;</span>
     </header>
     <main class="main">
+        <div class="burger" id="burger-section">
+            <a class="close-burger">&times;</a>
+            <a href="./pages/login.html" class="line1">Login</a>
+            <a href="./pages/wishlist.html" class="line2">wishlist</a>
+            <a href="./pages/cart.html" class="line3">Cart</a>
+        </div>
         <section>
             <div class="main-content">
                 <div class="main-heading">
@@ -298,6 +300,8 @@
     <footer>
         <p class="footer-text text-m text-center">Made by <a class="creator-name" target="_blank" href="https://twitter.com/iarjunbharti">Arjun Bharti</a></p>
     </footer>
+
+    <script src="./scripts/sidebar.js"></script>
     </body>
 </body>
 </html>

@@ -102,11 +102,9 @@ nav{
     display: none;
 }
 
-.burger .line1, .line2, .line3{
-    width: 1.5rem;
-    height: 3px;
-    background-color: var(--dark);
-    margin: 5px;
+.open-burger{
+    display: none;
+    font-size: 30px;
 }
 
 .main{
@@ -277,7 +275,6 @@ footer{
         width: 30%;
     }
 
-
 }
 
 @media screen and (max-width: 650px) {
@@ -286,8 +283,25 @@ footer{
     }
 
     .burger{
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: var(--background);
+        transition: 0.5s;
     }
+
+    .burger .close-burger {
+        position: absolute;
+        top: 100px;
+        right: 45px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      .open-burger{
+          display: block;
+      }
+      
 
     .main-content{
         display: flex;

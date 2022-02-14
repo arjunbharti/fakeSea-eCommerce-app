@@ -1,0 +1,35 @@
+.products-container{
+    padding-top: 1rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.product-card:hover{
+    box-shadow: 0px 0px 4px 4px var(--secondary-color);
+}
+
+@media screen and (max-width: 450px) {
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .wishlist-product-img{
+        height: 7rem;
+        width: 6rem;
+    }
+
+    .products-section{
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .product-author{
+        font-size: smaller;
+    }
+
+    .product-name{
+        font-size: smaller;
+    }
+}
