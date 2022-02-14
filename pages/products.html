@@ -38,6 +38,86 @@
     <section class="products flex-row">
         <aside class="product-filters flex-column">
             <p class="filters-title">Apply filters</p> 
+            <button id="filter-btn" class="btn btn-secondary btn-curved">Apply filters</button>
+            <div class="modal">
+                <div class="filters-sections">
+                    <div class="filter-type filter-price">
+                        Price💰 
+                        <div class="filter-subtype">
+                            <input type="radio" name="price">
+                            <label>Low to high</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="radio" name="price">
+                            <label>High to Low</label>
+                        </div>
+                    </div>
+                    <div class="filter-type filter-trend">
+                        Trend🔥
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Celebrity</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Technology</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Bollywood</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Art</label>
+                        </div>
+                    </div>
+                    <div class="filter-type filter-category">
+                        Category
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Most liked❤️</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Most expensive💰</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>To moon🚀</label>
+                        </div>
+                    </div>
+                    <div class="filter-type filter-chain">
+                        Blockchain
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Ethereum (ETH)</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Solana (SOL)</label>
+                        </div>
+                        <div class="filter-subtype">
+                            <input type="checkbox">
+                            <label>Polygon (MATIC)</label>
+                        </div>
+                    </div>
+                    <div class="filter-type">
+                        Rating
+                        <div class="filter-subtype">
+                            1
+                            <input type="range" id="volume" name="volume"
+                               min="0" max="5">
+                            5
+                        </div>
+                    </div> 
+                              
+                </div>
+                <div class="modal-footer">  
+                    <button id="apply-filter" class="btn btn-secondary">Apply</button>
+                    <button id="clear-filter" class="btn btn-secondary">Clear</button>
+                </div>
+            </div>
+        
             <div class="filters-section">
                 <div class="filter-type filter-price">
                     Price💰 
@@ -196,5 +276,7 @@
             </div>
         </main>
     </section>
+
+    <script src="../scripts/main.js"></script>
 </body>
 </html>

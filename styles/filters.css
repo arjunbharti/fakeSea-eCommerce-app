@@ -30,3 +30,33 @@
 .filter-subtype{
     padding: 0.5rem;
 }
+
+.btn-curved{
+    display: none;
+}
+
+.modal{
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .products{
+        flex-direction: column;
+    }
+
+    .product-filters{
+        width: 100%;
+    }
+
+    .filters-section{
+        display: none;
+    }
+
+    .btn-curved{
+        display: block;
+    }
+
+    .filters-title{
+        display: none;
+    }
+}
