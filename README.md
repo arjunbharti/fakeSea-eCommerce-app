@@ -40,4 +40,16 @@ Open your favorite code editor and run locally!
 ![img-3](https://user-images.githubusercontent.com/60930192/154800659-2dfab3ea-cf58-4dd7-a085-9a6bd23019e5.png)
 ![img-4](https://user-images.githubusercontent.com/60930192/154800716-b7e75a2f-c957-40ad-81aa-b0f8063eeb99.png)
 
+## Tech Stack
+
+
+- HTML
+- CSS
+- JavaScript
+
+## Author
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/iarjunbharti.svg?style=social&label=Follow%20%40iarjunbharti)](https://twitter.com/iarjunbharti)
+<br />
+Let's connect :)
+
 
